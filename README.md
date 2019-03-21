@@ -19,7 +19,7 @@ The centroids are passed to the dlib tracker for id generation and tracking.
 9. dlib
 # Running the tracker
 This pipeline relies on a configuration maintained in a Mongodb collection to access the video input.
-Data for building this collection is available in the config.txt file.
+Data for building this collection is available in the 'config.txt' file.
 ## Steps to run the file
 1. Create a Mongodb database named 'Main_DB'
 2. Create a colletion named 'cam' and write the data in 'config.txt' to a new document in 'cam' (modify the content according to your usage)
@@ -36,4 +36,4 @@ Entry and exit counts are managed through a flag \[1 or -1]. For example in our 
 The yolo inference runs optimally on a CUDA capable NVIDIA GPU. CPU inferences are slow (which is expected behaviour)
 Tracker can  wrongly ID a person in crowded situation or when the camera is not static. This may cause ID switching.
 # Future developement
-Entire workflow will be switche dto the OpenVINO toolkit provided by Intel which accelerates CPU inference significantly.
+Entire workflow will be switched to the OpenVINO toolkit provided by Intel which accelerates CPU inference significantly.
