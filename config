@@ -1,0 +1,13 @@
+{
+    "feed" : "rtsp stream or video file path",
+    "cam_id" : "my cam",
+    "a" : [ 
+        0, 
+        400
+    ],
+    "b" : [ 
+        1920, 
+        400
+    ],
+    "count_type" : -1
+}
