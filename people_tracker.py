@@ -1,8 +1,8 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from pyimagesearch.centroidtracker import CentroidTracker
-from pyimagesearch.trackableobject import TrackableObject
+from utils.centroidtracker import CentroidTracker
+from utils.trackableobject import TrackableObject
 from imutils.video import WebcamVideoStream
 from imutils.video import FPS
 import numpy as np
